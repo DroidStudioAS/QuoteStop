@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Quote Stop</string>
+    <string-array name="spinnerstrings">
+        <item>Random</item>
+        <item>Business</item>
+        <item>Change</item>
+        <item>Character</item>
+        <item>Classics</item>
+        <item>Competition</item>
+        <item>Friendship</item>
+        <item>Future</item>
+        <item>Happiness</item>
+        <item>History</item>
+        <item>Humorous</item>
+        <item>Inspirational</item>
+        <item>Life</item>
+        <item>Love</item>
+        <item>Motivational</item>
+        <item>Philosophy</item>
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Success</item>
+        <item>Technology</item>
+        <item>Virtue</item>
+        <item>Wisdom</item>
+    </string-array>
+    <string-array name="spinnervalues">
+        <item>https://api.quotable.io/random</item>
+        <item>https://api.quotable.io/random?tags=Business</item>
+        <item>https://api.quotable.io/random?tags=Change</item>
+        <item>https://api.quotable.io/random?tags=Character</item>
+        <item>https://api.quotable.io/random?tags=famous-quotes</item>
+        <item>https://api.quotable.io/random?tags=Competition</item>
+        <item>https://api.quotable.io/random?tags=Friendship</item>
+        <item>https://api.quotable.io/random?tags=Future</item>
+        <item>https://api.quotable.io/random?tags=Happiness</item>
+        <item>https://api.quotable.io/random?tags=History</item>
+        <item>https://api.quotable.io/random?tags=Humorous</item>
+        <item>https://api.quotable.io/random?tags=Inspirational</item>
+        <item>https://api.quotable.io/random?tags=Life</item>
+        <item>https://api.quotable.io/random?tags=Love</item>
+        <item>https://api.quotable.io/random?tags=Motivational</item>
+        <item>https://api.quotable.io/random?tags=Philosophy</item>
+        <item>https://api.quotable.io/random?tags=Politics</item>
+        <item>https://api.quotable.io/random?tags=Sports</item>
+        <item>https://api.quotable.io/random?tags=Success</item>
+        <item>https://api.quotable.io/random?tags=Technology</item>
+        <item>https://api.quotable.io/random?tags=Virtue</item>
+        <item>https://api.quotable.io/random?tags=Wisdom</item>
+    </string-array>
+</resources>

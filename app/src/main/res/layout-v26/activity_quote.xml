@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_activity_background"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".quoteActivity">
+
+    <TextView
+        android:id="@+id/authorView"
+        android:layout_width="241dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="162dp"
+        android:fontFamily="@font/calligraffitti"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:autoSizeTextType="uniform"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/contentView"
+        android:layout_width="318dp"
+        android:layout_height="261dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="@font/calligraffitti"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:autoSizeTextType="uniform"/>
+
+    <ImageView
+        android:id="@+id/trigger"
+        android:layout_width="269dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="33dp"
+        app:srcCompat="@drawable/generate_button_nobackground" />
+
+    <ImageView
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/beforeheartnobackground" />
+</RelativeLayout>

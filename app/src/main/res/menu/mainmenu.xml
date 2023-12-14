@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="previousquote"
+        android:id="@+id/prev"
+        android:icon="@drawable/previousquotenobackground"
+        app:showAsAction="always"/>
+    <item android:title="saved"
+        android:id="@+id/saved"
+        app:showAsAction="always"
+        android:icon="@drawable/beforeheartnobackground"
+        />
+    <item android:title="Info"
+        android:id="@+id/info"
+        app:showAsAction="always"
+        android:icon="@drawable/infonoback"/>
+
+</menu>
